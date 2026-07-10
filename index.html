@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday eerthi Lakshmi</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- MUSIC -->
+    <!-- ========================= -->
+
+    <audio id="bgMusic" loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Floating Items -->
+
+    <div id="floatingContainer"></div>
+
+    <!-- Cursor Hearts -->
+
+    <div id="cursorContainer"></div>
+
+    <!-- ========================= -->
+    <!-- START SCREEN -->
+    <!-- ========================= -->
+
+    <section id="startScreen">
+
+        <div class="characters">
+
+            <!-- YOU -->
+
+            <img src="me.jpg" class="character me">
+
+            <div class="introContent">
+
+                <h1 class="mainTitle">
+
+                    Happy 17th BirthDay ❤️
+
+                </h1>
+
+                <p class="subtitle">
+
+                    I made something special for you...
+
+                </p>
+
+                <button id="giftBtn">
+
+                    🎁 Open Your Gift
+
+                </button>
+
+            </div>
+
+            <!-- DAD -->
+
+            <img src="appa.jpg" class="character appa">
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- LETTER -->
+    <!-- ========================= -->
+
+    <section id="letterScreen" class="hidden">
+
+        <h2 class="envelopeTitle">
+
+            A Letter For My Everything ❤️
+
+        </h2>
+
+        <div class="envelopeWrapper">
+
+            <div id="envelope" class="envelope">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-body"></div>
+
+                <div id="letter" class="letter">
+
+                    <div class="letterContent">
+
+                        <h1>
+
+                            Dear Keerthi Lakshmi ❤️
+
+                        </h1>
+
+                        <div id="typedText"></div>
+
+                        <div class="signature">
+
+                            — Love, G D Taarun Kumar ❤️
+
+                        </div>
+
+                        <button id="memoryBtn">
+
+                            📸 Relive Our Memories
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PHOTO MEMORIES -->
+    <!-- ========================= -->
+
+    <section id="memoryScreen" class="hidden">
+
+        <h1 class="memoryTitle">
+
+            📸 Our Beautiful Memories ❤️
+
+        </h1>
+
+        <div class="memoryContainer">
+
+            <div class="memoryCard">
+                <img src="photos/1.jpg">
+                <p>Every journey with you became a beautiful memory ❤️</p>
+            </div>
+            
+            <div class="memoryCard">
+                <img src="photos/2.jpg">
+                <p>The forever "Some people don't need words to spread love."❤️.</p>
+            </div>
+
+
+            <div class="memoryCard">
+                <img src="photos/3.jpg">
+                <p>A little peace sign, a million reasons to smile. 🌸pookie chalant gurl</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/4.jpg">
+                <p>Even in black and white, your presence never lost its color. 🤍</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/5.jpg">
+                <p>Confidence looked effortless on you. ✨</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/6.jpg">
+                <p>Some moments don't need eye contact to leave an impression. 🌙 just needs you to look like a boy</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/7.jpg">
+                <p>One frame... and somehow it captured an entire personality. ❤️</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/8.jpg">
+                <p>One of my favourite Photo ❤️</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/9.jpg">
+                <p>You've always been my biggest supporter.</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/10.jpg">
+                <p>From Strangers to unforgettable memories... every picture tells a story. 🌼</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/10.jpg">
+                <p>Thank you for teaching me life's greatest lessons.</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/11.jpg">
+                <p>I hope to make you proud every day.</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/12.jpg">
+                <p>"Some people become memories; you became one of my favorite ones."</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/13.jpg">
+                <p>"Years may pass, but these memories will always stay young."</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/14.jpg">
+                <p>"Happy Birthday to someone who made my story a little brighter. 🎂❤️"</p>
+            </div>
+
+            <div class="memoryCard">
+                <img src="photos/15.jpg">
+                <p>Forever your little boy ❤️</p>
+            </div>
+
+        </div>
+
+        <button id="finishBtn">
+
+            ❤️ One Last Message
+
+        </button>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- FINAL MESSAGE -->
+    <!-- ========================= -->
+
+    <div id="finalMessage" class="hidden">
+
+        <div class="finalCard">
+
+            <h1>❤️</h1>
+
+            <h2>
+
+                 ❤️Love You my dear ❤️
+
+            </h2>
+
+            <p>
+
+                ❤️ Happy Birthday ❤️
+
+Thank you for being
+one of the most beautiful
+parts of my memories.
+
+May your smile never fade,
+your dreams always come true,
+and your life be filled with
+happiness, love, and success.
+
+❤️ The End...
+or maybe just another
+beautiful beginning. ❤️
+
+This little website
+holds only a few memories,
+
+but the smiles behind them
+will always be priceless.
+
+Wishing you
+the happiest birthday
+and a future brighter
+than all your dreams.
+
+Happy Birthday! 🎉🎂
+            </p>
+
+            <p class="smallText">
+
+                ❤️ Happy Birthday ❤️
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- LETTER CONTENT -->
+    <!-- ========================= -->
+
+    <script>
+
+const letterText = `
+
+Dear Keerthi Lakshmi ❤️,
+
+Happy 17th Birthday. ❤️
+
+Everyone knows the short-tempered, nonchalant, silent, short-haired Keerthi.
+
+But I know someone beyond that.
+
+I know the long-haired Keerthi Lakshmi...
+the sweet, cute, pretty girl who was always taking snaps,
+the one who loved with her whole heart,
+the one who had her own little world,
+the one who has smiled through pain that most people never knew about.
+
+And honestly...
+I know I made some of those days even harder.
+If I ever became another reason for your pain,
+I'm truly sorry.
+
+Yet, despite everything...
+
+You'll always be my first...
+and the best best friend I've ever had.
+
+You unknowingly set the standards so high
+that nobody else ever felt the same.
+
+Your voice.
+Your laugh.
+The way you cared.
+The way you loved.
+Your style.
+Your cuteness.
+Your kindness.
+
+People compare beauty to the moon...
+
+But the moon still has phases.
+
+You have always been beautiful,
+inside and out.
+
+You helped me more than you'll ever realize.
+
+And no joke...
+you've literally played every role a girl could play in a boy's life.
+
+You were my best friend.
+My therapist.
+My listener.
+My supporter.
+My teacher.
+My parent.
+The one who cared for me.
+The one who scolded me when I deserved it.
+The one who slapped me...
+bit me...
+and somehow still made me feel loved. 😂❤️
+
+IIMUN brought us together...
+
+Maybe we made mistakes.
+Maybe life took us in different directions.
+
+But I'll always be grateful that it happened,
+because without it,
+I would've never met someone like you.
+
+And yes...
+
+You may be older than me...
+
+But I'm still taller than you. 😌😂
+
+Thank you for every memory,
+every laugh,
+every argument,
+every lesson,
+and every moment.
+
+I genuinely hope this year brings you everything you've wished for.
+
+Keep smiling.
+Keep being yourself.
+Never change for anyone.
+
+Love you,
+Birthday Girl. ❤️
+
+Happy 17th Birthday.
+
+— G D Taarun Kumar ❤️
+
+`;
+
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
